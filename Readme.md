@@ -1,3 +1,5 @@
+Note: You might want to look at https://github.com/markpundsack/jekyll-example-with-heroku-buildpack for a much simpler version!
+
 Creating a Jekyll App on Heroku Cedar (from GitHub)
 ===
 
