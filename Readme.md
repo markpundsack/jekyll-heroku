@@ -19,7 +19,7 @@ Clone the git repository
 Let's test it locally
 ---
 
-    jekyll --server --auto
+    jekyll serve
 
 Open your browser and go to http://localhost:4000.
 
@@ -92,7 +92,7 @@ Now we need an index page. Open index.html and add:
 
 Let's test it locally:
 
-    jekyll --server --auto
+    jekyll serve
 
 Open your browser and go to http://localhost:4000
 
@@ -118,7 +118,7 @@ Create the Gemfile.lock
 
 Create a Procfile
 
-    echo "web:	jekyll --server $PORT" > Procfile
+    echo "web:	jekyll serve -p $PORT" > Procfile
 
 Exclude all of those files
 
