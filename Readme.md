@@ -118,7 +118,7 @@ Create the Gemfile.lock
 
 Create a Procfile
 
-    echo "web:	jekyll serve -p $PORT" > Procfile
+    echo "web:	jekyll serve -P $PORT" > Procfile
 
 Exclude all of those files
 
